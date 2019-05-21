@@ -1,0 +1,39 @@
+platform :ios ,'8.0'
+target 'CustomFramework' do
+    # 刷新
+    pod 'MJRefresh'
+    
+    # 网络
+    pod 'AFNetworking', '~> 3.0'
+    
+    # 加载图片
+    pod 'SDWebImage', '~> 4.0'
+    
+    # 键盘
+    pod 'IQKeyboardManager', '~> 6.0.3'
+    
+    # js 交互
+    pod 'WebViewJavascriptBridge', '~> 6.0'
+    
+    # 模型解析
+    pod 'YYModel', '~> 1.0.4'
+    
+    # 加载Toast
+    pod 'SVProgressHUD', '~> 2.2.5'
+    
+    # UI布局
+    pod 'Masonry'
+    
+    # segment viewcontroller
+    pod 'WMPageController', '~> 2.4.0'
+    
+    # 选择器
+    pod 'BRPickerView', '~> 2.2.1'
+    
+    # alertVC
+    pod 'TYAlertController'
+    
+    
+    pod 'MBProgressHUD'
+
+end 	

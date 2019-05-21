@@ -1,0 +1,26 @@
+//
+//  CustomFramework.pch
+//  CustomFramework
+//
+//  Created by binbin on 2019/1/23.
+//  Copyright © 2019 cbb. All rights reserved.
+//
+
+#ifndef CustomFramework_pch
+#define CustomFramework_pch
+
+
+
+
+
+
+/** 导入文件  */
+#import "Import.h"
+/** 配置文件 */
+#import "CommonConfig.h"
+/** 其他配置 */
+#import "Other.h"
+
+
+
+#endif /* CustomFramework_pch */
