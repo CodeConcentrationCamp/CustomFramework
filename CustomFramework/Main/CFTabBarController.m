@@ -43,10 +43,10 @@
  */
 - (void)setUpChildViewController
 {
-    CFTabBarModel * tabBarOneModel = [CFTabBarModel createTabbarModel:@"CFTabBarOneViewController" title:@"首页" image:@"Tabbar_act" imageSelected:@"Tabbar_act_selected"];
-    CFTabBarModel * tabBarTwoModel = [CFTabBarModel createTabbarModel:@"CFTabBarTwoViewController" title:@"活动" image:@"Tabbar_home" imageSelected:@"Tabbar_home_selected"];
+    CFTabBarModel * tabBarOneModel = [CFTabBarModel createTabbarModel:@"CFTabBarOneViewController" title:@"基础" image:@"Tabbar_act" imageSelected:@"Tabbar_act_selected"];
+    CFTabBarModel * tabBarTwoModel = [CFTabBarModel createTabbarModel:@"CFTabBarTwoViewController" title:@"进阶" image:@"Tabbar_home" imageSelected:@"Tabbar_home_selected"];
     CFTabBarModel * tabBarThreeModel = [CFTabBarModel createTabbarModel:@"CFTabBarThreeViewController" title:@"动画" image:@"Tabbar_act" imageSelected:@"Tabbar_act_selected"];
-    CFTabBarModel * tabBarFourModel = [CFTabBarModel createTabbarModel:@"CFTabBarFourViewController" title:@"我的" image:@"Tabbar_mine" imageSelected:@"Tabbar_mine_selected"];
+    CFTabBarModel * tabBarFourModel = [CFTabBarModel createTabbarModel:@"CFTabBarFourViewController" title:@"面试" image:@"Tabbar_mine" imageSelected:@"Tabbar_mine_selected"];
     self.itemsModel = @[tabBarOneModel,tabBarTwoModel,tabBarThreeModel,tabBarFourModel];
     
  

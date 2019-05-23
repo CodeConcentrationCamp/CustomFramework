@@ -9,6 +9,8 @@
 #ifndef Import_h
 #define Import_h
 
+#import <Masonry.h>
+
 #import "UIButton+Category.h"
 #import "UIView+Category.h"
 #import "UIImageView+Category.h"
@@ -16,4 +18,5 @@
 #import "UIColor+Category.h"
 #import "UITableView+Category.h"
 
+#import "ManagementTool.h"
 #endif /* Import_h */

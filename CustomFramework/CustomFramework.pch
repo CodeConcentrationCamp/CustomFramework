@@ -21,6 +21,6 @@
 /** 其他配置 */
 #import "Other.h"
 
-
+#import "NSObject+CFLog.h"
 
 #endif /* CustomFramework_pch */

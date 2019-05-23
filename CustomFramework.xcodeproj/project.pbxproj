@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2BB1F62294E2E1002D528D /* CFTableViewOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */; };
+		2E2BB1FA2294E5E2002D528D /* CFradiuoShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB1F92294E5E2002D528D /* CFradiuoShadowView.m */; };
+		2E2BB202229513C0002D528D /* tabbarTitle.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BB201229513C0002D528D /* tabbarTitle.json */; };
+		2E2BB205229519D1002D528D /* ManagementTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB204229519D1002D528D /* ManagementTool.m */; };
+		2E2BB20B229529FC002D528D /* CFBasicKnowledgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB20A229529FC002D528D /* CFBasicKnowledgeModel.m */; };
+		2E2BB20E22952D91002D528D /* CFRunTimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB20D22952D91002D528D /* CFRunTimeDetailViewController.m */; };
+		2E2BB21222953B1B002D528D /* CFRunObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB21122953B1B002D528D /* CFRunObject.m */; };
+		2E2BB2182295540D002D528D /* NSObject+CFLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB2172295540D002D528D /* NSObject+CFLog.m */; };
+		2E2BB2202295A15A002D528D /* CFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB21F2295A15A002D528D /* CFWebViewController.m */; };
+		2E2BB223229682A4002D528D /* CFToolsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB222229682A4002D528D /* CFToolsObject.m */; };
+		2E2BB2262296AB4C002D528D /* UIControl+CFButtonClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */; };
 		2E3C54AC21F6E81B0060BDFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C54AB21F6E81B0060BDFD /* AppDelegate.m */; };
 		2E3C54B421F6E81D0060BDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3C54B321F6E81D0060BDFD /* Assets.xcassets */; };
 		2E3C54B721F6E81D0060BDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3C54B521F6E81D0060BDFD /* LaunchScreen.storyboard */; };
@@ -55,6 +66,27 @@
 
 /* Begin PBXFileReference section */
 		2937C0F81C8A1A48BDD702C7 /* Pods-CustomFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2BB1F42294E2E1002D528D /* CFTableViewOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFTableViewOneCell.h; sourceTree = "<group>"; };
+		2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFTableViewOneCell.m; sourceTree = "<group>"; };
+		2E2BB1F82294E5E2002D528D /* CFradiuoShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFradiuoShadowView.h; sourceTree = "<group>"; };
+		2E2BB1F92294E5E2002D528D /* CFradiuoShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFradiuoShadowView.m; sourceTree = "<group>"; };
+		2E2BB201229513C0002D528D /* tabbarTitle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tabbarTitle.json; sourceTree = "<group>"; };
+		2E2BB203229519D1002D528D /* ManagementTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagementTool.h; sourceTree = "<group>"; };
+		2E2BB204229519D1002D528D /* ManagementTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagementTool.m; sourceTree = "<group>"; };
+		2E2BB209229529FC002D528D /* CFBasicKnowledgeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFBasicKnowledgeModel.h; sourceTree = "<group>"; };
+		2E2BB20A229529FC002D528D /* CFBasicKnowledgeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBasicKnowledgeModel.m; sourceTree = "<group>"; };
+		2E2BB20C22952D91002D528D /* CFRunTimeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFRunTimeDetailViewController.h; sourceTree = "<group>"; };
+		2E2BB20D22952D91002D528D /* CFRunTimeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFRunTimeDetailViewController.m; sourceTree = "<group>"; };
+		2E2BB21022953B1B002D528D /* CFRunObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFRunObject.h; sourceTree = "<group>"; };
+		2E2BB21122953B1B002D528D /* CFRunObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFRunObject.m; sourceTree = "<group>"; };
+		2E2BB2162295540D002D528D /* NSObject+CFLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CFLog.h"; sourceTree = "<group>"; };
+		2E2BB2172295540D002D528D /* NSObject+CFLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CFLog.m"; sourceTree = "<group>"; };
+		2E2BB21E2295A15A002D528D /* CFWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFWebViewController.h; sourceTree = "<group>"; };
+		2E2BB21F2295A15A002D528D /* CFWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFWebViewController.m; sourceTree = "<group>"; };
+		2E2BB221229682A4002D528D /* CFToolsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFToolsObject.h; sourceTree = "<group>"; };
+		2E2BB222229682A4002D528D /* CFToolsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFToolsObject.m; sourceTree = "<group>"; };
+		2E2BB2242296AB4C002D528D /* UIControl+CFButtonClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+CFButtonClick.h"; sourceTree = "<group>"; };
+		2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CFButtonClick.m"; sourceTree = "<group>"; };
 		2E3C54A721F6E81B0060BDFD /* CustomFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3C54AA21F6E81B0060BDFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E3C54AB21F6E81B0060BDFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +174,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E2BB1F72294E529002D528D /* 设置圆角阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB1F82294E5E2002D528D /* CFradiuoShadowView.h */,
+				2E2BB1F92294E5E2002D528D /* CFradiuoShadowView.m */,
+			);
+			path = "设置圆角阴影";
+			sourceTree = "<group>";
+		};
+		2E2BB20F22953AF3002D528D /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB20C22952D91002D528D /* CFRunTimeDetailViewController.h */,
+				2E2BB20D22952D91002D528D /* CFRunTimeDetailViewController.m */,
+				2E2BB21022953B1B002D528D /* CFRunObject.h */,
+				2E2BB21122953B1B002D528D /* CFRunObject.m */,
+				2E2BB221229682A4002D528D /* CFToolsObject.h */,
+				2E2BB222229682A4002D528D /* CFToolsObject.m */,
+				2E2BB2272296DE10002D528D /* Button防止触发连续点击 */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		2E2BB2272296DE10002D528D /* Button防止触发连续点击 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB2242296AB4C002D528D /* UIControl+CFButtonClick.h */,
+				2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */,
+			);
+			path = "Button防止触发连续点击";
+			sourceTree = "<group>";
+		};
 		2E3C549E21F6E81B0060BDFD = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +232,7 @@
 		2E3C54A921F6E81B0060BDFD /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB201229513C0002D528D /* tabbarTitle.json */,
 				2E3C550421F6F67E0060BDFD /* @Class */,
 				2E3C54EE21F6F60B0060BDFD /* Config(配置文件) */,
 				2E3C550321F6F60C0060BDFD /* Image(图片) */,
@@ -219,6 +284,8 @@
 				2E3C554821F972010060BDFD /* UIColor+Category.m */,
 				2E5D1A87228408C6002F7375 /* UITableView+Category.h */,
 				2E5D1A88228408C6002F7375 /* UITableView+Category.m */,
+				2E2BB2162295540D002D528D /* NSObject+CFLog.h */,
+				2E2BB2172295540D002D528D /* NSObject+CFLog.m */,
 			);
 			path = "Category(类别)";
 			sourceTree = "<group>";
@@ -247,6 +314,8 @@
 				2EA92615222394A100B21C67 /* CFSingletonTool.m */,
 				2EA926172224E1BC00B21C67 /* CFBaseKnowledge.h */,
 				2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */,
+				2E2BB203229519D1002D528D /* ManagementTool.h */,
+				2E2BB204229519D1002D528D /* ManagementTool.m */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -254,6 +323,7 @@
 		2E3C550221F6F60C0060BDFD /* Others(其他) */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB1F72294E529002D528D /* 设置圆角阴影 */,
 				2E3C54ED21F6F60B0060BDFD /* Category(类别) */,
 			);
 			path = "Others(其他)";
@@ -393,6 +463,8 @@
 		2E3C551221F6F7220060BDFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB209229529FC002D528D /* CFBasicKnowledgeModel.h */,
+				2E2BB20A229529FC002D528D /* CFBasicKnowledgeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -400,6 +472,8 @@
 		2E3C551321F6F72A0060BDFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB1F42294E2E1002D528D /* CFTableViewOneCell.h */,
+				2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -407,6 +481,7 @@
 		2E3C551421F6F72E0060BDFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB20F22953AF3002D528D /* RunTime */,
 				2E3C552121F6FE3F0060BDFD /* CFTabBarOneViewController.h */,
 				2E3C552221F6FE3F0060BDFD /* CFTabBarOneViewController.m */,
 				2EA9261A222515B300B21C67 /* CFBlockViewController.h */,
@@ -452,6 +527,8 @@
 		2E3C553321F70AC40060BDFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB21E2295A15A002D528D /* CFWebViewController.h */,
+				2E2BB21F2295A15A002D528D /* CFWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -579,6 +656,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2BB202229513C0002D528D /* tabbarTitle.json in Resources */,
 				2E3C54B721F6E81D0060BDFD /* LaunchScreen.storyboard in Resources */,
 				2E3C54B421F6E81D0060BDFD /* Assets.xcassets in Resources */,
 			);
@@ -658,26 +736,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2BB2182295540D002D528D /* NSObject+CFLog.m in Sources */,
 				2E3C553021F6FFAA0060BDFD /* CFTabBar.m in Sources */,
 				2E3C552A21F6FF560060BDFD /* CFTabBarController.m in Sources */,
 				2E3C552021F6FE310060BDFD /* CFTabBarTwoViewController.m in Sources */,
+				2E2BB20B229529FC002D528D /* CFBasicKnowledgeModel.m in Sources */,
 				2E3C552321F6FE3F0060BDFD /* CFTabBarOneViewController.m in Sources */,
 				2E3C54BA21F6E81D0060BDFD /* main.m in Sources */,
 				2EA9261C222515B300B21C67 /* CFBlockViewController.m in Sources */,
 				2E3C551D21F6FDF80060BDFD /* CFTabBarThreeViewController.m in Sources */,
+				2E2BB2262296AB4C002D528D /* UIControl+CFButtonClick.m in Sources */,
 				2E3C554621F971700060BDFD /* UIImageView+Category.m in Sources */,
 				2E3C553D21F962C90060BDFD /* UIView+Category.m in Sources */,
 				2E3C552D21F6FF900060BDFD /* CFNavigationController.m in Sources */,
+				2E2BB20E22952D91002D528D /* CFRunTimeDetailViewController.m in Sources */,
 				2E3C553621F70B030060BDFD /* CFTabBarModel.m in Sources */,
 				2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */,
 				2EA92616222394A100B21C67 /* CFSingletonTool.m in Sources */,
+				2E2BB2202295A15A002D528D /* CFWebViewController.m in Sources */,
 				2E3C554321F96F5C0060BDFD /* UIButton+Category.m in Sources */,
 				2E5D1A89228408C6002F7375 /* UITableView+Category.m in Sources */,
+				2E2BB21222953B1B002D528D /* CFRunObject.m in Sources */,
+				2E2BB205229519D1002D528D /* ManagementTool.m in Sources */,
 				2E3C551721F6FD6A0060BDFD /* CFRootViewController.m in Sources */,
 				2E3C553921F8484C0060BDFD /* CFQQViewController.m in Sources */,
+				2E2BB223229682A4002D528D /* CFToolsObject.m in Sources */,
 				2E3C54AC21F6E81B0060BDFD /* AppDelegate.m in Sources */,
 				2E3C554021F96CBA0060BDFD /* UILabel+Category.m in Sources */,
 				2E3C552621F6FE6B0060BDFD /* CFTabBarFourViewController.m in Sources */,
+				2E2BB1F62294E2E1002D528D /* CFTableViewOneCell.m in Sources */,
+				2E2BB1FA2294E5E2002D528D /* CFradiuoShadowView.m in Sources */,
 				2E5D1A8C22840CCD002F7375 /* CFMultithreadingViewController.m in Sources */,
 				2E3C554921F972010060BDFD /* UIColor+Category.m in Sources */,
 			);
@@ -847,6 +935,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2UZJ6DT4U;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = CustomFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -865,6 +954,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2UZJ6DT4U;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = CustomFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
