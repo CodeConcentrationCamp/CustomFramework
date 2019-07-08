@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+typedef void(^RunBlock)(void);
 @interface CFRunObject : NSObject
 
 - (void)eat;
 
+- (void)sleep;
+
+@property (nonatomic,copy) RunBlock blockRun ;
 @end
 
 NS_ASSUME_NONNULL_END

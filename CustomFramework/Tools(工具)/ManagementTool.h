@@ -10,10 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ManagementTool : NSObject
+@interface ManagementTool : NSObject<NSCopying, NSMutableCopying>
 
 /** 单利 */
-- (instancetype)sharedInstance;
 + (instancetype)sharedInstance;
 
 

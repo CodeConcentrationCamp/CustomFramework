@@ -62,5 +62,6 @@
 - (void)reloadCellModel:(CFtitleArrayModel *)cellModel cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
    self.labelText.text =cellModel.title;
+    
 }
 @end

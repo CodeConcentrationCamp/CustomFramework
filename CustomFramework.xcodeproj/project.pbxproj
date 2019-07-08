@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E05109122CB64F10045D27E /* ORRingChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05108B22CB64F10045D27E /* ORRingChartConfig.m */; };
+		2E05109222CB64F10045D27E /* ORChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05108D22CB64F10045D27E /* ORChartUtilities.m */; };
+		2E05109322CB64F10045D27E /* ORRingChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05108F22CB64F10045D27E /* ORRingChartView.m */; };
+		2E0DA0A9229E7CD500FA9392 /* Block-MRC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0DA0A8229E7CD500FA9392 /* Block-MRC.png */; };
 		2E2BB1F62294E2E1002D528D /* CFTableViewOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */; };
 		2E2BB1FA2294E5E2002D528D /* CFradiuoShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB1F92294E5E2002D528D /* CFradiuoShadowView.m */; };
 		2E2BB202229513C0002D528D /* tabbarTitle.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BB201229513C0002D528D /* tabbarTitle.json */; };
@@ -18,6 +22,13 @@
 		2E2BB2202295A15A002D528D /* CFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB21F2295A15A002D528D /* CFWebViewController.m */; };
 		2E2BB223229682A4002D528D /* CFToolsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB222229682A4002D528D /* CFToolsObject.m */; };
 		2E2BB2262296AB4C002D528D /* UIControl+CFButtonClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */; };
+		2E2BB22A229791B5002D528D /* NSObject+logVarMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB228229791B4002D528D /* NSObject+logVarMethod.m */; };
+		2E2BB22E229B71FD002D528D /* CFDataPersistenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB22D229B71FD002D528D /* CFDataPersistenceModel.m */; };
+		2E2BB231229B8117002D528D /* NSObject+RunTimeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB230229B8117002D528D /* NSObject+RunTimeCode.m */; };
+		2E2BB234229BB966002D528D /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB233229BB966002D528D /* NSObject+Model.m */; };
+		2E2BB237229BC3E0002D528D /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB236229BC3E0002D528D /* NSObject+Property.m */; };
+		2E2BB249229CC636002D528D /* CFYYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB248229CC636002D528D /* CFYYModelViewController.m */; };
+		2E2BB24D229CC71E002D528D /* CFYYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB24C229CC71E002D528D /* CFYYModel.m */; };
 		2E3C54AC21F6E81B0060BDFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C54AB21F6E81B0060BDFD /* AppDelegate.m */; };
 		2E3C54B421F6E81D0060BDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3C54B321F6E81D0060BDFD /* Assets.xcassets */; };
 		2E3C54B721F6E81D0060BDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3C54B521F6E81D0060BDFD /* LaunchScreen.storyboard */; };
@@ -41,6 +52,16 @@
 		2E3C554921F972010060BDFD /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C554821F972010060BDFD /* UIColor+Category.m */; };
 		2E5D1A89228408C6002F7375 /* UITableView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D1A88228408C6002F7375 /* UITableView+Category.m */; };
 		2E5D1A8C22840CCD002F7375 /* CFMultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D1A8B22840CCD002F7375 /* CFMultithreadingViewController.m */; };
+		2E81961A22C9DD5100DA391B /* Snip20190701_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E81961922C9DD5000DA391B /* Snip20190701_3.png */; };
+		2E81961D22CA0AAC00DA391B /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81961C22CA0AAC00DA391B /* TableViewAnimationKit.m */; };
+		2E84D63B22C9A8FC00FBD651 /* CFChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84D63A22C9A8FC00FBD651 /* CFChartViewController.m */; };
+		2E84D63F22C9A9CB00FBD651 /* CFCustomChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84D63E22C9A9CB00FBD651 /* CFCustomChartView.m */; };
+		2E84D64322C9B8F500FBD651 /* CFTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84D64222C9B8F500FBD651 /* CFTriangleView.m */; };
+		2E99201C22A4C20700547711 /* CFNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99201B22A4C20700547711 /* CFNotificationViewController.m */; };
+		2E99201F22A4C34C00547711 /* CFNoteResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99201E22A4C34C00547711 /* CFNoteResultViewController.m */; };
+		2E99202322A4F8DD00547711 /* CFKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99202222A4F8DD00547711 /* CFKVOViewController.m */; };
+		2E99202822A602A200547711 /* CFSharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99202722A602A200547711 /* CFSharedViewController.m */; };
+		2E99203822A6079600547711 /* CFKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99203722A6079600547711 /* CFKVCViewController.m */; };
 		2EA92616222394A100B21C67 /* CFSingletonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA92615222394A100B21C67 /* CFSingletonTool.m */; };
 		2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */; };
 		2EA9261C222515B300B21C67 /* CFBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9261B222515B300B21C67 /* CFBlockViewController.m */; };
@@ -66,6 +87,13 @@
 
 /* Begin PBXFileReference section */
 		2937C0F81C8A1A48BDD702C7 /* Pods-CustomFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		2E05108B22CB64F10045D27E /* ORRingChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRingChartConfig.m; sourceTree = "<group>"; };
+		2E05108C22CB64F10045D27E /* ORRingChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRingChartView.h; sourceTree = "<group>"; };
+		2E05108D22CB64F10045D27E /* ORChartUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORChartUtilities.m; sourceTree = "<group>"; };
+		2E05108E22CB64F10045D27E /* ORRingChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRingChartConfig.h; sourceTree = "<group>"; };
+		2E05108F22CB64F10045D27E /* ORRingChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRingChartView.m; sourceTree = "<group>"; };
+		2E05109022CB64F10045D27E /* ORChartUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORChartUtilities.h; sourceTree = "<group>"; };
+		2E0DA0A8229E7CD500FA9392 /* Block-MRC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Block-MRC.png"; sourceTree = "<group>"; };
 		2E2BB1F42294E2E1002D528D /* CFTableViewOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFTableViewOneCell.h; sourceTree = "<group>"; };
 		2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFTableViewOneCell.m; sourceTree = "<group>"; };
 		2E2BB1F82294E5E2002D528D /* CFradiuoShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFradiuoShadowView.h; sourceTree = "<group>"; };
@@ -87,6 +115,20 @@
 		2E2BB222229682A4002D528D /* CFToolsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFToolsObject.m; sourceTree = "<group>"; };
 		2E2BB2242296AB4C002D528D /* UIControl+CFButtonClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+CFButtonClick.h"; sourceTree = "<group>"; };
 		2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CFButtonClick.m"; sourceTree = "<group>"; };
+		2E2BB228229791B4002D528D /* NSObject+logVarMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+logVarMethod.m"; sourceTree = "<group>"; };
+		2E2BB229229791B5002D528D /* NSObject+logVarMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+logVarMethod.h"; sourceTree = "<group>"; };
+		2E2BB22C229B71FD002D528D /* CFDataPersistenceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFDataPersistenceModel.h; sourceTree = "<group>"; };
+		2E2BB22D229B71FD002D528D /* CFDataPersistenceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFDataPersistenceModel.m; sourceTree = "<group>"; };
+		2E2BB22F229B8117002D528D /* NSObject+RunTimeCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RunTimeCode.h"; sourceTree = "<group>"; };
+		2E2BB230229B8117002D528D /* NSObject+RunTimeCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RunTimeCode.m"; sourceTree = "<group>"; };
+		2E2BB232229BB966002D528D /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		2E2BB233229BB966002D528D /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		2E2BB235229BC3E0002D528D /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		2E2BB236229BC3E0002D528D /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		2E2BB247229CC636002D528D /* CFYYModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFYYModelViewController.h; sourceTree = "<group>"; };
+		2E2BB248229CC636002D528D /* CFYYModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFYYModelViewController.m; sourceTree = "<group>"; };
+		2E2BB24B229CC71E002D528D /* CFYYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFYYModel.h; sourceTree = "<group>"; };
+		2E2BB24C229CC71E002D528D /* CFYYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFYYModel.m; sourceTree = "<group>"; };
 		2E3C54A721F6E81B0060BDFD /* CustomFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3C54AA21F6E81B0060BDFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E3C54AB21F6E81B0060BDFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,12 +180,31 @@
 		2E5D1A88228408C6002F7375 /* UITableView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Category.m"; sourceTree = "<group>"; };
 		2E5D1A8A22840CCD002F7375 /* CFMultithreadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFMultithreadingViewController.h; sourceTree = "<group>"; };
 		2E5D1A8B22840CCD002F7375 /* CFMultithreadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFMultithreadingViewController.m; sourceTree = "<group>"; };
+		2E81961922C9DD5000DA391B /* Snip20190701_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20190701_3.png; sourceTree = "<group>"; };
+		2E81961B22CA0AAC00DA391B /* TableViewAnimationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		2E81961C22CA0AAC00DA391B /* TableViewAnimationKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		2E84D63922C9A8FC00FBD651 /* CFChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFChartViewController.h; sourceTree = "<group>"; };
+		2E84D63A22C9A8FC00FBD651 /* CFChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFChartViewController.m; sourceTree = "<group>"; };
+		2E84D63D22C9A9CB00FBD651 /* CFCustomChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFCustomChartView.h; sourceTree = "<group>"; };
+		2E84D63E22C9A9CB00FBD651 /* CFCustomChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFCustomChartView.m; sourceTree = "<group>"; };
+		2E84D64122C9B8F500FBD651 /* CFTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFTriangleView.h; sourceTree = "<group>"; };
+		2E84D64222C9B8F500FBD651 /* CFTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFTriangleView.m; sourceTree = "<group>"; };
+		2E99201A22A4C20700547711 /* CFNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNotificationViewController.h; sourceTree = "<group>"; };
+		2E99201B22A4C20700547711 /* CFNotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNotificationViewController.m; sourceTree = "<group>"; };
+		2E99201D22A4C34C00547711 /* CFNoteResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNoteResultViewController.h; sourceTree = "<group>"; };
+		2E99201E22A4C34C00547711 /* CFNoteResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNoteResultViewController.m; sourceTree = "<group>"; };
+		2E99202122A4F8DD00547711 /* CFKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFKVOViewController.h; sourceTree = "<group>"; };
+		2E99202222A4F8DD00547711 /* CFKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFKVOViewController.m; sourceTree = "<group>"; };
+		2E99202622A602A200547711 /* CFSharedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSharedViewController.h; sourceTree = "<group>"; };
+		2E99202722A602A200547711 /* CFSharedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSharedViewController.m; sourceTree = "<group>"; };
+		2E99203622A6079600547711 /* CFKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFKVCViewController.h; sourceTree = "<group>"; };
+		2E99203722A6079600547711 /* CFKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFKVCViewController.m; sourceTree = "<group>"; };
 		2EA92614222394A100B21C67 /* CFSingletonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSingletonTool.h; sourceTree = "<group>"; };
 		2EA92615222394A100B21C67 /* CFSingletonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSingletonTool.m; sourceTree = "<group>"; };
 		2EA926172224E1BC00B21C67 /* CFBaseKnowledge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFBaseKnowledge.h; sourceTree = "<group>"; };
 		2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBaseKnowledge.m; sourceTree = "<group>"; };
-		2EA9261A222515B300B21C67 /* CFBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFBlockViewController.h; sourceTree = "<group>"; };
-		2EA9261B222515B300B21C67 /* CFBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBlockViewController.m; sourceTree = "<group>"; };
+		2EA9261A222515B300B21C67 /* CFBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CFBlockViewController.h; path = ../CFBlockViewController.h; sourceTree = "<group>"; };
+		2EA9261B222515B300B21C67 /* CFBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CFBlockViewController.m; path = ../CFBlockViewController.m; sourceTree = "<group>"; };
 		AC71F6B25ABBA10748AB0EFC /* libPods-CustomFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D693B76ED0F2559FF8BC0370 /* Pods-CustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +235,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E05108922CB64CF0045D27E /* 圆饼图 */ = {
+			isa = PBXGroup;
+			children = (
+				2E05108A22CB64F10045D27E /* ORRingChart */,
+			);
+			path = "圆饼图";
+			sourceTree = "<group>";
+		};
+		2E05108A22CB64F10045D27E /* ORRingChart */ = {
+			isa = PBXGroup;
+			children = (
+				2E05109022CB64F10045D27E /* ORChartUtilities.h */,
+				2E05108D22CB64F10045D27E /* ORChartUtilities.m */,
+				2E05108C22CB64F10045D27E /* ORRingChartView.h */,
+				2E05108F22CB64F10045D27E /* ORRingChartView.m */,
+				2E05108E22CB64F10045D27E /* ORRingChartConfig.h */,
+				2E05108B22CB64F10045D27E /* ORRingChartConfig.m */,
+			);
+			path = ORRingChart;
+			sourceTree = "<group>";
+		};
 		2E2BB1F72294E529002D528D /* 设置圆角阴影 */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +274,6 @@
 				2E2BB21122953B1B002D528D /* CFRunObject.m */,
 				2E2BB221229682A4002D528D /* CFToolsObject.h */,
 				2E2BB222229682A4002D528D /* CFToolsObject.m */,
-				2E2BB2272296DE10002D528D /* Button防止触发连续点击 */,
 			);
 			path = RunTime;
 			sourceTree = "<group>";
@@ -204,6 +285,43 @@
 				2E2BB2252296AB4C002D528D /* UIControl+CFButtonClick.m */,
 			);
 			path = "Button防止触发连续点击";
+			sourceTree = "<group>";
+		};
+		2E2BB22B229B7182002D528D /* 归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB22C229B71FD002D528D /* CFDataPersistenceModel.h */,
+				2E2BB22D229B71FD002D528D /* CFDataPersistenceModel.m */,
+			);
+			path = "归档解档";
+			sourceTree = "<group>";
+		};
+		2E2BB246229CC5F0002D528D /* YYModel示例 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB247229CC636002D528D /* CFYYModelViewController.h */,
+				2E2BB248229CC636002D528D /* CFYYModelViewController.m */,
+			);
+			path = "YYModel示例";
+			sourceTree = "<group>";
+		};
+		2E2BB24A229CC680002D528D /* YYModel示例 */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB24B229CC71E002D528D /* CFYYModel.h */,
+				2E2BB24C229CC71E002D528D /* CFYYModel.m */,
+			);
+			path = "YYModel示例";
+			sourceTree = "<group>";
+		};
+		2E2BB24E229CD522002D528D /* Block详解 */ = {
+			isa = PBXGroup;
+			children = (
+				2E0DA0A8229E7CD500FA9392 /* Block-MRC.png */,
+				2EA9261A222515B300B21C67 /* CFBlockViewController.h */,
+				2EA9261B222515B300B21C67 /* CFBlockViewController.m */,
+			);
+			path = "Block详解";
 			sourceTree = "<group>";
 		};
 		2E3C549E21F6E81B0060BDFD = {
@@ -272,6 +390,7 @@
 		2E3C54ED21F6F60B0060BDFD /* Category(类别) */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB2272296DE10002D528D /* Button防止触发连续点击 */,
 				2E3C553B21F962C90060BDFD /* UIView+Category.h */,
 				2E3C553C21F962C90060BDFD /* UIView+Category.m */,
 				2E3C553E21F96CBA0060BDFD /* UILabel+Category.h */,
@@ -284,8 +403,16 @@
 				2E3C554821F972010060BDFD /* UIColor+Category.m */,
 				2E5D1A87228408C6002F7375 /* UITableView+Category.h */,
 				2E5D1A88228408C6002F7375 /* UITableView+Category.m */,
+				2E2BB229229791B5002D528D /* NSObject+logVarMethod.h */,
+				2E2BB228229791B4002D528D /* NSObject+logVarMethod.m */,
 				2E2BB2162295540D002D528D /* NSObject+CFLog.h */,
 				2E2BB2172295540D002D528D /* NSObject+CFLog.m */,
+				2E2BB22F229B8117002D528D /* NSObject+RunTimeCode.h */,
+				2E2BB230229B8117002D528D /* NSObject+RunTimeCode.m */,
+				2E2BB232229BB966002D528D /* NSObject+Model.h */,
+				2E2BB233229BB966002D528D /* NSObject+Model.m */,
+				2E2BB235229BC3E0002D528D /* NSObject+Property.h */,
+				2E2BB236229BC3E0002D528D /* NSObject+Property.m */,
 			);
 			path = "Category(类别)";
 			sourceTree = "<group>";
@@ -316,6 +443,8 @@
 				2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */,
 				2E2BB203229519D1002D528D /* ManagementTool.h */,
 				2E2BB204229519D1002D528D /* ManagementTool.m */,
+				2E81961B22CA0AAC00DA391B /* TableViewAnimationKit.h */,
+				2E81961C22CA0AAC00DA391B /* TableViewAnimationKit.m */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -454,6 +583,7 @@
 		2E3C551121F6F7190060BDFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E05108922CB64CF0045D27E /* 圆饼图 */,
 				2E3C551E21F6FE310060BDFD /* CFTabBarTwoViewController.h */,
 				2E3C551F21F6FE310060BDFD /* CFTabBarTwoViewController.m */,
 			);
@@ -463,6 +593,8 @@
 		2E3C551221F6F7220060BDFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB24A229CC680002D528D /* YYModel示例 */,
+				2E2BB22B229B7182002D528D /* 归档解档 */,
 				2E2BB209229529FC002D528D /* CFBasicKnowledgeModel.h */,
 				2E2BB20A229529FC002D528D /* CFBasicKnowledgeModel.m */,
 			);
@@ -472,6 +604,7 @@
 		2E3C551321F6F72A0060BDFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E84D63C22C9A9A300FBD651 /* 图形模式 */,
 				2E2BB1F42294E2E1002D528D /* CFTableViewOneCell.h */,
 				2E2BB1F52294E2E1002D528D /* CFTableViewOneCell.m */,
 			);
@@ -481,11 +614,24 @@
 		2E3C551421F6F72E0060BDFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E84D63822C9A8B400FBD651 /* 图形模式 */,
+				2E99203522A6076100547711 /* webView详解JS */,
+				2E99203422A6073300547711 /* 类别和类扩展 */,
+				2E99203322A6072700547711 /* RunLoop */,
+				2E99203222A606DC00547711 /* 协议代理 */,
+				2E99202F22A6069B00547711 /* 第三方库的详解 */,
+				2E99202E22A6067F00547711 /* 动态库静态库的区别 */,
+				2E99202D22A6064900547711 /* MVC模式和MVVM模式比较 */,
+				2E99202C22A6063C00547711 /* 内存管理 */,
+				2E99202B22A6062E00547711 /* 多线程 */,
+				2E99202A22A6061500547711 /* Git和SVN比较 */,
+				2E99202922A605B800547711 /* KVC */,
+				2E99202522A6028000547711 /* 单利模式 */,
+				2E99202422A5170600547711 /* 观察者设计模式 */,
+				2E2BB24E229CD522002D528D /* Block详解 */,
 				2E2BB20F22953AF3002D528D /* RunTime */,
 				2E3C552121F6FE3F0060BDFD /* CFTabBarOneViewController.h */,
 				2E3C552221F6FE3F0060BDFD /* CFTabBarOneViewController.m */,
-				2EA9261A222515B300B21C67 /* CFBlockViewController.h */,
-				2EA9261B222515B300B21C67 /* CFBlockViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -531,6 +677,169 @@
 				2E2BB21F2295A15A002D528D /* CFWebViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E84D63822C9A8B400FBD651 /* 图形模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2E84D63922C9A8FC00FBD651 /* CFChartViewController.h */,
+				2E84D63A22C9A8FC00FBD651 /* CFChartViewController.m */,
+			);
+			path = "图形模式";
+			sourceTree = "<group>";
+		};
+		2E84D63C22C9A9A300FBD651 /* 图形模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2E84D64022C9B8B600FBD651 /* 三角 */,
+				2E84D63D22C9A9CB00FBD651 /* CFCustomChartView.h */,
+				2E84D63E22C9A9CB00FBD651 /* CFCustomChartView.m */,
+			);
+			path = "图形模式";
+			sourceTree = "<group>";
+		};
+		2E84D64022C9B8B600FBD651 /* 三角 */ = {
+			isa = PBXGroup;
+			children = (
+				2E81961922C9DD5000DA391B /* Snip20190701_3.png */,
+				2E84D64122C9B8F500FBD651 /* CFTriangleView.h */,
+				2E84D64222C9B8F500FBD651 /* CFTriangleView.m */,
+			);
+			path = "三角";
+			sourceTree = "<group>";
+		};
+		2E99201922A4C1EC00547711 /* 消息通知 */ = {
+			isa = PBXGroup;
+			children = (
+				2E99201A22A4C20700547711 /* CFNotificationViewController.h */,
+				2E99201B22A4C20700547711 /* CFNotificationViewController.m */,
+				2E99201D22A4C34C00547711 /* CFNoteResultViewController.h */,
+				2E99201E22A4C34C00547711 /* CFNoteResultViewController.m */,
+			);
+			path = "消息通知";
+			sourceTree = "<group>";
+		};
+		2E99202022A4F8CD00547711 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				2E99202122A4F8DD00547711 /* CFKVOViewController.h */,
+				2E99202222A4F8DD00547711 /* CFKVOViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		2E99202422A5170600547711 /* 观察者设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2E99201922A4C1EC00547711 /* 消息通知 */,
+				2E99202022A4F8CD00547711 /* KVO */,
+			);
+			path = "观察者设计模式";
+			sourceTree = "<group>";
+		};
+		2E99202522A6028000547711 /* 单利模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2E99202622A602A200547711 /* CFSharedViewController.h */,
+				2E99202722A602A200547711 /* CFSharedViewController.m */,
+			);
+			path = "单利模式";
+			sourceTree = "<group>";
+		};
+		2E99202922A605B800547711 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				2E99203622A6079600547711 /* CFKVCViewController.h */,
+				2E99203722A6079600547711 /* CFKVCViewController.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		2E99202A22A6061500547711 /* Git和SVN比较 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Git和SVN比较";
+			sourceTree = "<group>";
+		};
+		2E99202B22A6062E00547711 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		2E99202C22A6063C00547711 /* 内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		2E99202D22A6064900547711 /* MVC模式和MVVM模式比较 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVC模式和MVVM模式比较";
+			sourceTree = "<group>";
+		};
+		2E99202E22A6067F00547711 /* 动态库静态库的区别 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态库静态库的区别";
+			sourceTree = "<group>";
+		};
+		2E99202F22A6069B00547711 /* 第三方库的详解 */ = {
+			isa = PBXGroup;
+			children = (
+				2E99203122A606BF00547711 /* 图片SDWebImage */,
+				2E99203022A606B800547711 /* 网络请求AF */,
+				2E2BB246229CC5F0002D528D /* YYModel示例 */,
+			);
+			path = "第三方库的详解";
+			sourceTree = "<group>";
+		};
+		2E99203022A606B800547711 /* 网络请求AF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络请求AF";
+			sourceTree = "<group>";
+		};
+		2E99203122A606BF00547711 /* 图片SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片SDWebImage";
+			sourceTree = "<group>";
+		};
+		2E99203222A606DC00547711 /* 协议代理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "协议代理";
+			sourceTree = "<group>";
+		};
+		2E99203322A6072700547711 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		2E99203422A6073300547711 /* 类别和类扩展 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "类别和类扩展";
+			sourceTree = "<group>";
+		};
+		2E99203522A6076100547711 /* webView详解JS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "webView详解JS";
 			sourceTree = "<group>";
 		};
 		9ED7804EB87C7791FD63DC5E /* Pods */ = {
@@ -657,8 +966,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2BB202229513C0002D528D /* tabbarTitle.json in Resources */,
+				2E0DA0A9229E7CD500FA9392 /* Block-MRC.png in Resources */,
 				2E3C54B721F6E81D0060BDFD /* LaunchScreen.storyboard in Resources */,
 				2E3C54B421F6E81D0060BDFD /* Assets.xcassets in Resources */,
+				2E81961A22C9DD5100DA391B /* Snip20190701_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,35 +1050,54 @@
 				2E2BB2182295540D002D528D /* NSObject+CFLog.m in Sources */,
 				2E3C553021F6FFAA0060BDFD /* CFTabBar.m in Sources */,
 				2E3C552A21F6FF560060BDFD /* CFTabBarController.m in Sources */,
+				2E05109122CB64F10045D27E /* ORRingChartConfig.m in Sources */,
 				2E3C552021F6FE310060BDFD /* CFTabBarTwoViewController.m in Sources */,
 				2E2BB20B229529FC002D528D /* CFBasicKnowledgeModel.m in Sources */,
+				2E84D63F22C9A9CB00FBD651 /* CFCustomChartView.m in Sources */,
 				2E3C552321F6FE3F0060BDFD /* CFTabBarOneViewController.m in Sources */,
 				2E3C54BA21F6E81D0060BDFD /* main.m in Sources */,
 				2EA9261C222515B300B21C67 /* CFBlockViewController.m in Sources */,
+				2E05109222CB64F10045D27E /* ORChartUtilities.m in Sources */,
+				2E2BB231229B8117002D528D /* NSObject+RunTimeCode.m in Sources */,
 				2E3C551D21F6FDF80060BDFD /* CFTabBarThreeViewController.m in Sources */,
 				2E2BB2262296AB4C002D528D /* UIControl+CFButtonClick.m in Sources */,
 				2E3C554621F971700060BDFD /* UIImageView+Category.m in Sources */,
+				2E81961D22CA0AAC00DA391B /* TableViewAnimationKit.m in Sources */,
+				2E99202322A4F8DD00547711 /* CFKVOViewController.m in Sources */,
+				2E2BB237229BC3E0002D528D /* NSObject+Property.m in Sources */,
 				2E3C553D21F962C90060BDFD /* UIView+Category.m in Sources */,
 				2E3C552D21F6FF900060BDFD /* CFNavigationController.m in Sources */,
 				2E2BB20E22952D91002D528D /* CFRunTimeDetailViewController.m in Sources */,
+				2E2BB234229BB966002D528D /* NSObject+Model.m in Sources */,
 				2E3C553621F70B030060BDFD /* CFTabBarModel.m in Sources */,
 				2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */,
 				2EA92616222394A100B21C67 /* CFSingletonTool.m in Sources */,
+				2E2BB22A229791B5002D528D /* NSObject+logVarMethod.m in Sources */,
 				2E2BB2202295A15A002D528D /* CFWebViewController.m in Sources */,
+				2E2BB24D229CC71E002D528D /* CFYYModel.m in Sources */,
+				2E84D64322C9B8F500FBD651 /* CFTriangleView.m in Sources */,
 				2E3C554321F96F5C0060BDFD /* UIButton+Category.m in Sources */,
 				2E5D1A89228408C6002F7375 /* UITableView+Category.m in Sources */,
+				2E05109322CB64F10045D27E /* ORRingChartView.m in Sources */,
 				2E2BB21222953B1B002D528D /* CFRunObject.m in Sources */,
+				2E2BB249229CC636002D528D /* CFYYModelViewController.m in Sources */,
 				2E2BB205229519D1002D528D /* ManagementTool.m in Sources */,
 				2E3C551721F6FD6A0060BDFD /* CFRootViewController.m in Sources */,
 				2E3C553921F8484C0060BDFD /* CFQQViewController.m in Sources */,
 				2E2BB223229682A4002D528D /* CFToolsObject.m in Sources */,
+				2E99203822A6079600547711 /* CFKVCViewController.m in Sources */,
+				2E2BB22E229B71FD002D528D /* CFDataPersistenceModel.m in Sources */,
+				2E99201C22A4C20700547711 /* CFNotificationViewController.m in Sources */,
 				2E3C54AC21F6E81B0060BDFD /* AppDelegate.m in Sources */,
 				2E3C554021F96CBA0060BDFD /* UILabel+Category.m in Sources */,
+				2E99201F22A4C34C00547711 /* CFNoteResultViewController.m in Sources */,
 				2E3C552621F6FE6B0060BDFD /* CFTabBarFourViewController.m in Sources */,
 				2E2BB1F62294E2E1002D528D /* CFTableViewOneCell.m in Sources */,
 				2E2BB1FA2294E5E2002D528D /* CFradiuoShadowView.m in Sources */,
 				2E5D1A8C22840CCD002F7375 /* CFMultithreadingViewController.m in Sources */,
 				2E3C554921F972010060BDFD /* UIColor+Category.m in Sources */,
+				2E99202822A602A200547711 /* CFSharedViewController.m in Sources */,
+				2E84D63B22C9A8FC00FBD651 /* CFChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,8 +11,9 @@
 
 #ifdef DEBUG
 //调试状态
+#define SEL_String  [[NSString stringWithFormat:@"%@",NSStringFromSelector(_cmd)] UTF8String]
 #define MyString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
-#define CFLog(...) NSLog(@"%s: %s (%@方法) 第%d行: %s\n\n",[[ManagementTool getCurrentDate] UTF8String], [MyString UTF8String] ,NSStringFromSelector(_cmd),__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define CFLog(...) printf("%s: %s 第%d行:(%s方法) %s\n\n",[[ManagementTool getCurrentDate] UTF8String], [MyString UTF8String] ,__LINE__,SEL_String, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
 #else
 //发布状态
 #define CFLog(...)
@@ -42,6 +43,7 @@
 
 /** 字符串是否为空 */
 #define  CF_StringIsEmpty(string)   (string == nil || string == NULL ||[string isKindOfClass:[NSNull class]]|| [string isEqualToString:@""] ||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0  || [string isKindOfClass:[NSNull class]] || [string isEqualToString:@"<null>"] || [string isEqualToString:@"(null)"])  ? YES : NO
+
 
 
 #endif /* CommonConfig_h_h */

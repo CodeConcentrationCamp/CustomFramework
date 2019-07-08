@@ -60,7 +60,7 @@
         
         /**
          
-         /*
+        
          判断class_addMethod是否已经添加成功了
          YES 则说明被替换方法不存在.也就是被替换的方法没有被实现,我们需要先把这个方法实现,然后再执行我们想要的效果,用我们自定义的方法去替换被替换的方法. 这里使用到的是class_replaceMethod这个方法. class_replaceMethod本身会尝试调用class_addMethod和method_setImplementation，所以直接调用class_replaceMethod就可以了)
          

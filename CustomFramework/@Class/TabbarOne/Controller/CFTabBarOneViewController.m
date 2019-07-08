@@ -13,6 +13,9 @@
 #import <YYModel.h>
 #import "CFRunTimeDetailViewController.h"
 #import "UIControl+CFButtonClick.h"
+#import "CFYYModelViewController.h"
+#import "CFBlockViewController.h"
+#import "TableViewAnimationKit.h"
 @interface CFTabBarOneViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView ;
 @property (nonatomic,strong) NSDictionary *dataDict;
@@ -46,29 +49,27 @@
         tableView.rowHeight = 55;
         tableView.separatorStyle = UITableViewCellEditingStyleNone;
         tableView.tableHeaderView = [UIView bb_ViewWithFrame:CGRectMake(0, 0, CF_ScreenWidth, 15) backgroundColor:[UIColor whiteColor]];
+        
         tableView;
     })));
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     
     UIButton * A = [UIButton bb_ButtonWithFrame:CGRectMake(100, 100, 100, 100) title:@"点击" image:nil textColor:[UIColor redColor] fontSize:20];
-    
     A.acceptEventInterval = 5;
-//    [A bb_handleWithBlock:^(id sender) {
-//
-//        NSLog(@"--点击");
-//    } controlEvent:UIControlEventTouchUpInside];
     [A addTarget:self action:@selector(aaa) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:A];
+    
     
 }
 
 - (void)aaa
 {
-    NSLog(@"--点击--");
+    
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -81,6 +82,7 @@
     }
    
     [cell reloadCellModel:self.cellModel.titleArray[indexPath.row] cellForRowAtIndexPath:indexPath];
+   [TableViewAnimationKit showWithAnimationType:4 tableView:self.tableView];
     return cell;
 }
 
@@ -91,7 +93,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CFRunTimeDetailViewController * vc =[CFRunTimeDetailViewController new];
+    CFtitleArrayModel * model =self.cellModel.titleArray[indexPath.row];
+    UIViewController * vc =[NSClassFromString(model.vcTitle)  new];
+    vc.title = model.title;
     [self.navigationController pushViewController:vc animated:YES];
 }
+
 @end

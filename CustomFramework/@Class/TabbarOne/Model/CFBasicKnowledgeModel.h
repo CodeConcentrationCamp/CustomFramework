@@ -16,8 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CFtitleArrayModel : NSObject
 @property (nonatomic,copy) NSString *title ;
-@property (nonatomic,copy) NSString *upTime ;
-@property (nonatomic,copy) NSString *witerTime ;
+@property (nonatomic,copy) NSString *vcTitle ;
 @property (nonatomic,copy) NSString *webUrl ;
 @end
 

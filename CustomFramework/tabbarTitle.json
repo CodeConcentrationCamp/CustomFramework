@@ -3,16 +3,40 @@
         "titleArray":[
             {
                 "title":"Runtime",
-                "webUrl":"https://www.jianshu.com/p/396935752f86",
-                "witerTime":"",
-                "upTime":""
+                "webUrl":"https://www.jianshu.com/p/12f1cd30f190",
+                "vcTitle":"CFRunTimeDetailViewController"
             },
             {
-                "title":"RunLoop",
-                 "webUrl":"",
-                "witerTime":"",
-                "upTime":""
+                "title":"Block",
+                "webUrl":"",
+                "vcTitle":"CFBlockViewController"
+            },
+            {
+                "title":"消息通知",
+                "webUrl":"",
+                "vcTitle":"CFNotificationViewController"
+            },
+            {
+                "title":"KVO",
+                "webUrl":"",
+                "vcTitle":"CFKVOViewController"
+            },
+            {
+                "title":"KVC",
+                "webUrl":"",
+                "vcTitle":"CFKVCViewController"
+            },
+            {
+                "title":"单利模式",
+                "webUrl":"",
+                "vcTitle":"CFSharedViewController"
+            },
+            {
+                "title":"图形模式",
+                "webUrl":"",
+                "vcTitle":"CFChartViewController"
             }
+
         ]
     }
 }

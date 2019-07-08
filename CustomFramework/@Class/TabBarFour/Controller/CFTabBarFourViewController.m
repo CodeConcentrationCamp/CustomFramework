@@ -12,6 +12,7 @@
 #import "CFBasicKnowledgeModel.h"
 #import <YYModel.h>
 #import "CFWebViewController.h"
+#import "NSObject+Property.h"
 @interface CFTabBarFourViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView ;
 @property (nonatomic,strong) NSDictionary *dataDict;
@@ -54,6 +55,10 @@
     [super viewDidLoad];
     self.title =@"面试题";
     [self.view addSubview:self.tableView];
+    NSLog(@"--%@",self.dataDict);
+    
+    [NSObject createPropertyCodeWithDict:[self.dataDict objectForKey:@"titleArray"][0]];
+    
     
 }
 

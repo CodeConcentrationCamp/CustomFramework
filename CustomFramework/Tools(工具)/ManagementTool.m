@@ -8,6 +8,8 @@
 
 #import "ManagementTool.h"
 
+
+
 @implementation ManagementTool
 
 /**
@@ -18,25 +20,35 @@
  节省系统资源
  缺点:单例实例一旦创建,对象指针是保存在静态区的,那么在堆区分配空间只有在应用程序终止后才会被释放
  单例不能继承,不利于扩展
- 
- 
+
  */
+
+static ManagementTool * __singleton__;
++(instancetype)allocWithZone:(struct _NSZone *)zone
+{
+    
+    static dispatch_once_t  onceToken;
+    dispatch_once(&onceToken, ^{
+        __singleton__ = [super allocWithZone:zone];
+    });
+    return __singleton__;
+    
+}
 
 + (instancetype)sharedInstance
 {
-    static dispatch_once_t  onceToken;
-    static ManagementTool * __singleton__;
-    dispatch_once(&onceToken, ^{
-        __singleton__ = [[self alloc]init];
-    });
+    return [[self alloc]init];
+}
+
+- (id)copyWithZone:(NSZone *)zone
+{
     return __singleton__;
 }
 
--  (instancetype)sharedInstance
+- (id)mutableCopyWithZone:(NSZone *)zone
 {
-    return  [[self class] sharedInstance];
+    return __singleton__;
 }
-
 
 
 /** 读取本地JSON文件 */
