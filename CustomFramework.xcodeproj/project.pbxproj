@@ -66,6 +66,9 @@
 		2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */; };
 		2EA9261C222515B300B21C67 /* CFBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9261B222515B300B21C67 /* CFBlockViewController.m */; };
 		49D2D3707999C8D61E1FC731 /* libPods-CustomFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC71F6B25ABBA10748AB0EFC /* libPods-CustomFramework.a */; };
+		B833DE5D2498DD5900139234 /* CFLocalizationLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */; };
+		B833DE5F2498DDCC00139234 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B833DE5E2498DDCC00139234 /* File.rtf */; };
+		B833DE672498DFC600139234 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B833DE692498DFC600139234 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +209,14 @@
 		2EA9261A222515B300B21C67 /* CFBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CFBlockViewController.h; path = ../CFBlockViewController.h; sourceTree = "<group>"; };
 		2EA9261B222515B300B21C67 /* CFBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CFBlockViewController.m; path = ../CFBlockViewController.m; sourceTree = "<group>"; };
 		AC71F6B25ABBA10748AB0EFC /* libPods-CustomFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833DE5B2498DD5900139234 /* CFLocalizationLanguageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFLocalizationLanguageManager.h; sourceTree = "<group>"; };
+		B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFLocalizationLanguageManager.m; sourceTree = "<group>"; };
+		B833DE5E2498DDCC00139234 /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		B833DE652498DF6500139234 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B833DE662498DFA200139234 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B833DE682498DFC600139234 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B833DE6A2498DFCA00139234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B833DE6B2498E0EA00139234 /* LanguageManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
 		D693B76ED0F2559FF8BC0370 /* Pods-CustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -437,6 +448,7 @@
 		2E3C54F021F6F60B0060BDFD /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				B833DE5A2498DD2B00139234 /* 多国语言切换 */,
 				2EA92614222394A100B21C67 /* CFSingletonTool.h */,
 				2EA92615222394A100B21C67 /* CFSingletonTool.m */,
 				2EA926172224E1BC00B21C67 /* CFBaseKnowledge.h */,
@@ -859,6 +871,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B833DE5A2498DD2B00139234 /* 多国语言切换 */ = {
+			isa = PBXGroup;
+			children = (
+				B833DE622498DE6600139234 /* 配置文件 */,
+				B833DE612498DE0E00139234 /* 多语言管理工具 */,
+				B833DE602498DDFE00139234 /* 启动页中英文切换 */,
+				B833DE5E2498DDCC00139234 /* File.rtf */,
+			);
+			path = "多国语言切换";
+			sourceTree = "<group>";
+		};
+		B833DE602498DDFE00139234 /* 启动页中英文切换 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "启动页中英文切换";
+			sourceTree = "<group>";
+		};
+		B833DE612498DE0E00139234 /* 多语言管理工具 */ = {
+			isa = PBXGroup;
+			children = (
+				B833DE5B2498DD5900139234 /* CFLocalizationLanguageManager.h */,
+				B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */,
+			);
+			path = "多语言管理工具";
+			sourceTree = "<group>";
+		};
+		B833DE622498DE6600139234 /* 配置文件 */ = {
+			isa = PBXGroup;
+			children = (
+				B833DE692498DFC600139234 /* Localizable.strings */,
+				B833DE6B2498E0EA00139234 /* LanguageManage.h */,
+			);
+			path = "配置文件";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -947,6 +995,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"en-GB",
 			);
 			mainGroup = 2E3C549E21F6E81B0060BDFD;
 			productRefGroup = 2E3C54A821F6E81B0060BDFD /* Products */;
@@ -967,6 +1017,8 @@
 			files = (
 				2E2BB202229513C0002D528D /* tabbarTitle.json in Resources */,
 				2E0DA0A9229E7CD500FA9392 /* Block-MRC.png in Resources */,
+				B833DE5F2498DDCC00139234 /* File.rtf in Resources */,
+				B833DE672498DFC600139234 /* Localizable.strings in Resources */,
 				2E3C54B721F6E81D0060BDFD /* LaunchScreen.storyboard in Resources */,
 				2E3C54B421F6E81D0060BDFD /* Assets.xcassets in Resources */,
 				2E81961A22C9DD5100DA391B /* Snip20190701_3.png in Resources */,
@@ -1078,6 +1130,7 @@
 				2E84D64322C9B8F500FBD651 /* CFTriangleView.m in Sources */,
 				2E3C554321F96F5C0060BDFD /* UIButton+Category.m in Sources */,
 				2E5D1A89228408C6002F7375 /* UITableView+Category.m in Sources */,
+				B833DE5D2498DD5900139234 /* CFLocalizationLanguageManager.m in Sources */,
 				2E05109322CB64F10045D27E /* ORRingChartView.m in Sources */,
 				2E2BB21222953B1B002D528D /* CFRunObject.m in Sources */,
 				2E2BB249229CC636002D528D /* CFYYModelViewController.m in Sources */,
@@ -1137,8 +1190,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				2E3C54B621F6E81D0060BDFD /* Base */,
+				B833DE652498DF6500139234 /* zh-Hans */,
+				B833DE662498DFA200139234 /* en-GB */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B833DE692498DFC600139234 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B833DE682498DFC600139234 /* zh-Hans */,
+				B833DE6A2498DFCA00139234 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1148,6 +1212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1208,6 +1273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

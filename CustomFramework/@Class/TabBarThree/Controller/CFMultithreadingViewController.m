@@ -43,11 +43,6 @@
  */
 
 
-
-
-
-
-
 /** 线程之间的通信 下载图片*/
 - (void)downLoadPicImageView
 {

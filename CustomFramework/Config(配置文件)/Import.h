@@ -8,7 +8,7 @@
 
 #ifndef Import_h
 #define Import_h
-
+#import "LanguageManage.h"
 #import <Masonry.h>
 #import <YYModel.h>
 #import "UIButton+Category.h"
@@ -19,6 +19,6 @@
 #import "UITableView+Category.h"
 #import "NSObject+logVarMethod.h"
 #import "ManagementTool.h"
-
+#import "CFLocalizationLanguageManager.h"
 #import "TableViewAnimationKit.h"
 #endif /* Import_h */
