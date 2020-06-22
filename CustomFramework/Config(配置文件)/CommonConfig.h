@@ -4,7 +4,7 @@
 //
 //  Created by binbin on 2019/1/24.
 //  Copyright © 2019 cbb. All rights reserved.
-//  V 1.0
+//  
 
  
 #ifndef CommonConfig_h_h
