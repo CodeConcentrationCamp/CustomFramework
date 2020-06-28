@@ -16,6 +16,7 @@
 #import "CFYYModelViewController.h"
 #import "CFBlockViewController.h"
 #import "TableViewAnimationKit.h"
+
 @interface CFTabBarOneViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView ;
 @property (nonatomic,strong) NSDictionary *dataDict;
@@ -63,6 +64,7 @@
     A.acceptEventInterval = 5;
     [A addTarget:self action:@selector(aaa) forControlEvents:UIControlEventTouchUpInside];
     
+    NSLog(@"====%lu",(unsigned long)self.dataDict.count);
     
 }
 

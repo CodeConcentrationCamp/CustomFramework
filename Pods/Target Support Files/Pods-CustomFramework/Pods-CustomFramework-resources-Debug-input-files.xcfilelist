@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources.sh
+${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRPickerView.bundle
+${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle

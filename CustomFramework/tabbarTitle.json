@@ -35,8 +35,13 @@
                 "title":"图形模式",
                 "webUrl":"",
                 "vcTitle":"CFChartViewController"
-            }
-
+            },
+            {
+                "title":"RAC",
+                "webUrl":"",
+                "vcTitle":"CFReactiveCocoaViewController"
+            },
+            
         ]
     }
 }

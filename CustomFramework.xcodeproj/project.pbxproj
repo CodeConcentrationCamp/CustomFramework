@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -69,6 +69,7 @@
 		B833DE5D2498DD5900139234 /* CFLocalizationLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */; };
 		B833DE5F2498DDCC00139234 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B833DE5E2498DDCC00139234 /* File.rtf */; };
 		B833DE672498DFC600139234 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B833DE692498DFC600139234 /* Localizable.strings */; };
+		B8E4769B24A83B25000F7E63 /* CFReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4769A24A83B25000F7E63 /* CFReactiveCocoaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,6 +218,8 @@
 		B833DE682498DFC600139234 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B833DE6A2498DFCA00139234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B833DE6B2498E0EA00139234 /* LanguageManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
+		B8E4769924A83B25000F7E63 /* CFReactiveCocoaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		B8E4769A24A83B25000F7E63 /* CFReactiveCocoaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFReactiveCocoaViewController.m; sourceTree = "<group>"; };
 		D693B76ED0F2559FF8BC0370 /* Pods-CustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -626,6 +629,7 @@
 		2E3C551421F6F72E0060BDFD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B8E4769C24A83B2E000F7E63 /* ReactiveCocoa */,
 				2E84D63822C9A8B400FBD651 /* 图形模式 */,
 				2E99203522A6076100547711 /* webView详解JS */,
 				2E99203422A6073300547711 /* 类别和类扩展 */,
@@ -907,6 +911,15 @@
 			path = "配置文件";
 			sourceTree = "<group>";
 		};
+		B8E4769C24A83B2E000F7E63 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B8E4769924A83B25000F7E63 /* CFReactiveCocoaViewController.h */,
+				B8E4769A24A83B25000F7E63 /* CFReactiveCocoaViewController.m */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1048,26 +1061,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources.sh",
-				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRPickerView.bundle",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BRPickerView.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomFramework/Pods-CustomFramework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8CF981D3EDD95BCFC9E103E /* [CP] Check Pods Manifest.lock */ = {
@@ -1102,6 +1104,7 @@
 				2E2BB2182295540D002D528D /* NSObject+CFLog.m in Sources */,
 				2E3C553021F6FFAA0060BDFD /* CFTabBar.m in Sources */,
 				2E3C552A21F6FF560060BDFD /* CFTabBarController.m in Sources */,
+				B8E4769B24A83B25000F7E63 /* CFReactiveCocoaViewController.m in Sources */,
 				2E05109122CB64F10045D27E /* ORRingChartConfig.m in Sources */,
 				2E3C552021F6FE310060BDFD /* CFTabBarTwoViewController.m in Sources */,
 				2E2BB20B229529FC002D528D /* CFBasicKnowledgeModel.m in Sources */,

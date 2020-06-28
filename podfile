@@ -32,8 +32,8 @@ target 'CustomFramework' do
     
     # alertVC
     pod 'TYAlertController'
-    
-    
     pod 'MBProgressHUD'
+    
+   pod 'ReactiveCocoa','~>2.5'
 
 end 	
