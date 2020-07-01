@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CFTabBarController.h"
+#import "CFStartPageView.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +23,17 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [CFTabBarController new];
+    [self setupStartPageView];
     return YES;
+}
+
+/**
+ *  设置启动页
+ */
+- (void)setupStartPageView {
+    
+    CFStartPageView *startPageView = [[CFStartPageView alloc] initWithFrame:self.window.bounds];
+    [startPageView show];
 }
 
 

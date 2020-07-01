@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CFRootViewController : UIViewController
-
++ (UIViewController *)getCurrentVC;
 @end
 
 NS_ASSUME_NONNULL_END
