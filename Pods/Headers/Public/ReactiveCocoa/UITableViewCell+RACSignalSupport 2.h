@@ -1,0 +1,1 @@
+../../../ReactiveCocoa/ReactiveCocoa/UITableViewCell+RACSignalSupport 2.h
