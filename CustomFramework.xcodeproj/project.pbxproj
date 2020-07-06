@@ -65,13 +65,13 @@
 		2EA92616222394A100B21C67 /* CFSingletonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA92615222394A100B21C67 /* CFSingletonTool.m */; };
 		2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */; };
 		2EA9261C222515B300B21C67 /* CFBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9261B222515B300B21C67 /* CFBlockViewController.m */; };
+		366694A824AC9A31003C1C75 /* CFStartPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366694A524AC9A31003C1C75 /* CFStartPageView.m */; };
+		366694A924AC9A31003C1C75 /* CFDrawCircleProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 366694A624AC9A31003C1C75 /* CFDrawCircleProgressButton.m */; };
 		49D2D3707999C8D61E1FC731 /* libPods-CustomFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC71F6B25ABBA10748AB0EFC /* libPods-CustomFramework.a */; };
 		B833DE5D2498DD5900139234 /* CFLocalizationLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */; };
 		B833DE5F2498DDCC00139234 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B833DE5E2498DDCC00139234 /* File.rtf */; };
 		B833DE672498DFC600139234 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B833DE692498DFC600139234 /* Localizable.strings */; };
 		B8E4769B24A83B25000F7E63 /* CFReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E4769A24A83B25000F7E63 /* CFReactiveCocoaViewController.m */; };
-		B8F0C61A24A98C7900FAED4D /* CFDrawCircleProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F0C61924A98C7900FAED4D /* CFDrawCircleProgressButton.m */; };
-		B8F0C61D24A98D0A00FAED4D /* CFStartPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F0C61C24A98D0A00FAED4D /* CFStartPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +211,10 @@
 		2EA926182224E1BC00B21C67 /* CFBaseKnowledge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFBaseKnowledge.m; sourceTree = "<group>"; };
 		2EA9261A222515B300B21C67 /* CFBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CFBlockViewController.h; path = ../CFBlockViewController.h; sourceTree = "<group>"; };
 		2EA9261B222515B300B21C67 /* CFBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CFBlockViewController.m; path = ../CFBlockViewController.m; sourceTree = "<group>"; };
+		366694A424AC9A30003C1C75 /* CFDrawCircleProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDrawCircleProgressButton.h; sourceTree = "<group>"; };
+		366694A524AC9A31003C1C75 /* CFStartPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStartPageView.m; sourceTree = "<group>"; };
+		366694A624AC9A31003C1C75 /* CFDrawCircleProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDrawCircleProgressButton.m; sourceTree = "<group>"; };
+		366694A724AC9A31003C1C75 /* CFStartPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStartPageView.h; sourceTree = "<group>"; };
 		AC71F6B25ABBA10748AB0EFC /* libPods-CustomFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B833DE5B2498DD5900139234 /* CFLocalizationLanguageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFLocalizationLanguageManager.h; sourceTree = "<group>"; };
 		B833DE5C2498DD5900139234 /* CFLocalizationLanguageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFLocalizationLanguageManager.m; sourceTree = "<group>"; };
@@ -222,10 +226,6 @@
 		B833DE6B2498E0EA00139234 /* LanguageManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
 		B8E4769924A83B25000F7E63 /* CFReactiveCocoaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFReactiveCocoaViewController.h; sourceTree = "<group>"; };
 		B8E4769A24A83B25000F7E63 /* CFReactiveCocoaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFReactiveCocoaViewController.m; sourceTree = "<group>"; };
-		B8F0C61824A98C7900FAED4D /* CFDrawCircleProgressButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFDrawCircleProgressButton.h; sourceTree = "<group>"; };
-		B8F0C61924A98C7900FAED4D /* CFDrawCircleProgressButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFDrawCircleProgressButton.m; sourceTree = "<group>"; };
-		B8F0C61B24A98D0A00FAED4D /* CFStartPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFStartPageView.h; sourceTree = "<group>"; };
-		B8F0C61C24A98D0A00FAED4D /* CFStartPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFStartPageView.m; sourceTree = "<group>"; };
 		B8F0C61F24A98F1700FAED4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D693B76ED0F2559FF8BC0370 /* Pods-CustomFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFramework/Pods-CustomFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -458,6 +458,10 @@
 		2E3C54F021F6F60B0060BDFD /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				366694A424AC9A30003C1C75 /* CFDrawCircleProgressButton.h */,
+				366694A624AC9A31003C1C75 /* CFDrawCircleProgressButton.m */,
+				366694A724AC9A31003C1C75 /* CFStartPageView.h */,
+				366694A524AC9A31003C1C75 /* CFStartPageView.m */,
 				B833DE5A2498DD2B00139234 /* 多国语言切换 */,
 				2EA92614222394A100B21C67 /* CFSingletonTool.h */,
 				2EA92615222394A100B21C67 /* CFSingletonTool.m */,
@@ -467,10 +471,6 @@
 				2E2BB204229519D1002D528D /* ManagementTool.m */,
 				2E81961B22CA0AAC00DA391B /* TableViewAnimationKit.h */,
 				2E81961C22CA0AAC00DA391B /* TableViewAnimationKit.m */,
-				B8F0C61824A98C7900FAED4D /* CFDrawCircleProgressButton.h */,
-				B8F0C61924A98C7900FAED4D /* CFDrawCircleProgressButton.m */,
-				B8F0C61B24A98D0A00FAED4D /* CFStartPageView.h */,
-				B8F0C61C24A98D0A00FAED4D /* CFStartPageView.m */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -1127,6 +1127,7 @@
 				2E2BB231229B8117002D528D /* NSObject+RunTimeCode.m in Sources */,
 				2E3C551D21F6FDF80060BDFD /* CFTabBarThreeViewController.m in Sources */,
 				2E2BB2262296AB4C002D528D /* UIControl+CFButtonClick.m in Sources */,
+				366694A924AC9A31003C1C75 /* CFDrawCircleProgressButton.m in Sources */,
 				2E3C554621F971700060BDFD /* UIImageView+Category.m in Sources */,
 				2E81961D22CA0AAC00DA391B /* TableViewAnimationKit.m in Sources */,
 				2E99202322A4F8DD00547711 /* CFKVOViewController.m in Sources */,
@@ -1136,7 +1137,6 @@
 				2E2BB20E22952D91002D528D /* CFRunTimeDetailViewController.m in Sources */,
 				2E2BB234229BB966002D528D /* NSObject+Model.m in Sources */,
 				2E3C553621F70B030060BDFD /* CFTabBarModel.m in Sources */,
-				B8F0C61D24A98D0A00FAED4D /* CFStartPageView.m in Sources */,
 				2EA926192224E1BC00B21C67 /* CFBaseKnowledge.m in Sources */,
 				2EA92616222394A100B21C67 /* CFSingletonTool.m in Sources */,
 				2E2BB22A229791B5002D528D /* NSObject+logVarMethod.m in Sources */,
@@ -1152,9 +1152,9 @@
 				2E2BB205229519D1002D528D /* ManagementTool.m in Sources */,
 				2E3C551721F6FD6A0060BDFD /* CFRootViewController.m in Sources */,
 				2E3C553921F8484C0060BDFD /* CFQQViewController.m in Sources */,
-				B8F0C61A24A98C7900FAED4D /* CFDrawCircleProgressButton.m in Sources */,
 				2E2BB223229682A4002D528D /* CFToolsObject.m in Sources */,
 				2E99203822A6079600547711 /* CFKVCViewController.m in Sources */,
+				366694A824AC9A31003C1C75 /* CFStartPageView.m in Sources */,
 				2E2BB22E229B71FD002D528D /* CFDataPersistenceModel.m in Sources */,
 				2E99201C22A4C20700547711 /* CFNotificationViewController.m in Sources */,
 				2E3C54AC21F6E81B0060BDFD /* AppDelegate.m in Sources */,
